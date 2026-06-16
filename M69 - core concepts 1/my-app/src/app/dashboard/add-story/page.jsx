@@ -1,12 +1,12 @@
 import Title from '@/components/Title';
 import React from 'react';
 
-const page = () => {
+const AddStoryPage = () => {
     return (
         <div>
-            <Title>Welcome to tutorials</Title>
+            <Title>Add your story</Title>
         </div>
     );
 };
 
-export default page;
+export default AddStoryPage;

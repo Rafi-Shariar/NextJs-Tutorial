@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <div>
       <header className="px-4 py-3 border-b-2 flex justify-between items-center flex-wrap">
+        <Link href={"/"}>
         <h1 className="font-bold text-4xl">Dev Story</h1>
+        </Link>
         <nav className="space-x-5">
           <Link href="/about">About</Link>
           <Link href="/tutorials">tutorials</Link>
